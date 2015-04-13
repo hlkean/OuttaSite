@@ -96,6 +96,20 @@ p{
     
 }
 
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 200px;
+  margin: 20px auto;
+  text-align: center;
+    
+}
+
+#secondRow{
+    margin-top: 20px;
+}
 
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -107,6 +121,12 @@ p{
         width:75%;
         margin-right: 15%
     }
+    #persona{
+padding-top: 20px;
+}
+#video{
+padding-top: 20px;
+}
 }
 
 @media only screen and (max-width: 40em) { 
@@ -150,5 +170,13 @@ height: 95px;
         -webkit-display:inline;
         -webkit-color: white;
     }
+    
+#persona{
+padding-top: 20px;
+}
+    
+#video{
+padding-top: 20px;
+}
     
 }
