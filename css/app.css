@@ -84,8 +84,8 @@ p{
     
 }
 
-#resume{
-
+#resume img:hover{
+border-top-right-radius: 40px;
 }
 
 #persona{

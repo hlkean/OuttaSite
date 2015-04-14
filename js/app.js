@@ -13,7 +13,14 @@ $(document).ready(function() {
 
     $('.two').append(msg);
     
+$('img').hover(
+    function(mouseIn){
+    $(this).animate({borderTopRightRadius: "40px"},  500)},
+    function(mouseOut){
+    $(this).animate({borderTopRightRadius: "0px"},  500)}
+);
 
+        
 
 //Begin Magnific JS
     
