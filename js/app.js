@@ -13,19 +13,26 @@ $(document).ready(function() {
 
     $('.two').append(msg);
     
-$('img').hover(
+$('.Project').hover(
     function(mouseIn){
     $(this).animate({borderTopRightRadius: "40px"},  500)},
     function(mouseOut){
-    $(this).animate({borderTopRightRadius: "0px"},  500)}
+    $(this).animate({borderTopRightRadius: "0px"},  200)}
 );
 
         
 
 //Begin Magnific JS
     
+    $.magnificPopup.open({
+  items: {
+    src: 'img/HenDiggity.png'
+  },
+  type: 'image'
+});
+     
     
-     $('#resume').magnificPopup({
+    $('#resume').magnificPopup({
         disableOn: 700,
         type: 'iframe',
         mainClass: 'mfp-fade',

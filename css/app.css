@@ -70,6 +70,10 @@ body{
     text-align: left;
 }
 
+#PicMe{
+margin-top: 50px;
+}
+
 p{
     text-align: left;
     font-family: 'Cantarell';
@@ -85,8 +89,7 @@ p{
 }
 
 
-#resume img:hover{
-border-top-right-radius: 40px;
+#resume {
 }
 
 
