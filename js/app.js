@@ -24,12 +24,7 @@ $('.Project').hover(
 
 //Begin Magnific JS
     
-    $.magnificPopup.open({
-  items: {
-    src: 'img/HenDiggity.png'
-  },
-  type: 'image'
-});
+
      
     
     $('#resume').magnificPopup({

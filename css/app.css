@@ -114,6 +114,7 @@ p{
 
 #secondRow{
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -136,6 +137,9 @@ padding-top: 20px;
 
 @media only screen and (max-width: 40em) { 
 
+#PicMe{
+display: none;
+}
     #one{
 height: 95px;
     }
@@ -183,5 +187,8 @@ padding-top: 20px;
 #video{
 padding-top: 20px;
 }
-    
+
+#frogg{
+padding-top: 20px;
+}    
 }
