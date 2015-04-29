@@ -15,7 +15,7 @@ $(document).ready(function() {
     
 $('.Project').hover(
     function(mouseIn){
-    $(this).animate({borderTopRightRadius: "40px"},  500)},
+    $(this).animate({borderTopRightRadius: "40px"},  200)},
     function(mouseOut){
     $(this).animate({borderTopRightRadius: "0px"},  200)}
 );
